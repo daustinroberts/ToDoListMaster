@@ -1,0 +1,8 @@
+/Users/Guest/Desktop/ToDoListMaster/ToDoList/bin/Debug/netcoreapp1.1/ToDoListTest.deps.json
+/Users/Guest/Desktop/ToDoListMaster/ToDoList/bin/Debug/netcoreapp1.1/ToDoListTest.runtimeconfig.json
+/Users/Guest/Desktop/ToDoListMaster/ToDoList/bin/Debug/netcoreapp1.1/ToDoListTest.runtimeconfig.dev.json
+/Users/Guest/Desktop/ToDoListMaster/ToDoList/bin/Debug/netcoreapp1.1/ToDoListTest.dll
+/Users/Guest/Desktop/ToDoListMaster/ToDoList/bin/Debug/netcoreapp1.1/ToDoListTest.pdb
+/Users/Guest/Desktop/ToDoListMaster/ToDoList/obj/Debug/netcoreapp1.1/ToDoListTest.AssemblyInfo.cs
+/Users/Guest/Desktop/ToDoListMaster/ToDoList/obj/Debug/netcoreapp1.1/ToDoListTest.dll
+/Users/Guest/Desktop/ToDoListMaster/ToDoList/obj/Debug/netcoreapp1.1/ToDoListTest.pdb

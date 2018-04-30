@@ -1,0 +1,13 @@
+/Users/Guest/Desktop/ToDoListMaster/ToDoList.Tests/bin/Debug/netcoreapp1.1/ToDoListTest.deps.json
+/Users/Guest/Desktop/ToDoListMaster/ToDoList.Tests/bin/Debug/netcoreapp1.1/ToDoListTest.runtimeconfig.json
+/Users/Guest/Desktop/ToDoListMaster/ToDoList.Tests/bin/Debug/netcoreapp1.1/ToDoListTest.runtimeconfig.dev.json
+/Users/Guest/Desktop/ToDoListMaster/ToDoList.Tests/obj/Debug/netcoreapp1.1/ToDoListTest.AssemblyInfo.cs
+/Users/Guest/Desktop/ToDoListMaster/ToDoList.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/Guest/Desktop/ToDoListMaster/ToDoList.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/Guest/Desktop/ToDoListMaster/ToDoList.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/Guest/Desktop/ToDoListMaster/ToDoList.Tests/bin/Debug/netcoreapp1.1/ToDoListTest.dll
+/Users/Guest/Desktop/ToDoListMaster/ToDoList.Tests/bin/Debug/netcoreapp1.1/ToDoListTest.pdb
+/Users/Guest/Desktop/ToDoListMaster/ToDoList.Tests/bin/Debug/netcoreapp1.1/ToDoList.dll
+/Users/Guest/Desktop/ToDoListMaster/ToDoList.Tests/bin/Debug/netcoreapp1.1/ToDoList.pdb
+/Users/Guest/Desktop/ToDoListMaster/ToDoList.Tests/obj/Debug/netcoreapp1.1/ToDoListTest.dll
+/Users/Guest/Desktop/ToDoListMaster/ToDoList.Tests/obj/Debug/netcoreapp1.1/ToDoListTest.pdb
