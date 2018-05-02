@@ -1,56 +1,67 @@
-using System;
-using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ToDoListApp.Models;
-namespace ToDoListApp.Controllers
+using System.Collections.Generic;
+using System;
+
+
+
+namespace ToDoListApp.Tests
 {
-  [TestClass]
-  public class ItemTest : IDisposable
-  {
-    [TestMethod]
-    public void GetDescription_ReturnsDescription_String()
+
+    [TestClass]
+    public class ItemTests : IDisposable
     {
-      //Arrange
-      string description = "Walk the dog.";
-      Item newItem = new Item(description);
-      newItem.Save();
+        public void Dispose()
+        {
+            // Item.DeleteAll();
+        }
+        public ItemTests()
+        {
+            DBConfiguration.ConnectionString = "server=localhost;user id=root;password=root;port=8889;database=todo_test;";
+        }
+        // [TestMethod]
+        // public void GetAll_DbStartsEmpty_0()
+        // {
+        //   //Arrange
+        //   //Act
+        //   int result = Item.GetAll().Count;
+        //
+        //   //Assert
+        //   Assert.AreEqual(0, result);
+        // }
+        // [TestMethod]
+        // public void Equals_ReturnsTrueIfDescriptionsAreTheSame_Item()
+        // {
+        //   // Arrange, Act
+        //   Item firstItem = new Item("Mow the lawn");
+        //   Item secondItem = new Item("Mow the lawn");
+        //
+        //   // Assert
+        //   Assert.AreEqual(firstItem, secondItem);
+        // }
+        [TestMethod]
+        public void Save_SavesToDatabase_ItemList()
+        {
+          //Arrange
+          Item testItem = new Item("Mow the lawn");
 
-      //Act
-      string result = newItem.GetDescription();
+          //Act
+          testItem.Save();
+          List<Item> result = Item.GetAll();
+          Console.WriteLine(result.Count);
+          foreach(Item element in result)
+          {
+            Console.WriteLine("result: " + result);
+          }
 
-      //Assert
-      Assert.AreEqual(description, result);
+
+          List<Item> testList = new List<Item>{testItem};
+          Console.WriteLine(testList.Count);
+          Console.WriteLine("testItem "+testItem);
+          Console.WriteLine("testList " +testList);
+          //Assert
+          CollectionAssert.AreEqual(testList, result);
+        }
 
     }
-    public void Dispose()
-    {
-      Item.ClearAll();
-    }
-
-    [TestMethod]
-    public void GetAll_ReturnsItems_ItemList()
-    {
-      //Arrange
-      string description01 = "Walk the dog";
-      string description02 = "Wash the dishes";
-      Item newItem1 = new Item(description01);
-      newItem1.Save();
-      Item newItem2 = new Item(description02);
-      newItem2.Save();
-      List<Item> newList = new List<Item> { newItem1, newItem2 };
-
-      //Act
-      List<Item> result = Item.GetAll();
-
-      foreach (Item thisItem in result)
-      {
-    
-        Console.WriteLine("Output: " + thisItem.GetDescription());
-      }
-
-      //Assert
-      CollectionAssert.AreEqual(newList, result);
-    }
-
-  }
 }
