@@ -27,14 +27,14 @@ namespace ToDoListApp.Controllers
         public ActionResult Create()
         {
           Item newItem = new Item (Request.Form["new-item"]);
-          newItem.Save();
+          // newItem.Save();
           List<Item> allItems = Item.GetAll();
           return View("Index", allItems);
         }
         [HttpPost("/items/delete")]
         public ActionResult DeleteAll()
         {
-            Item.ClearAll();
+            // Item.ClearAll();
             return View();
         }
     }

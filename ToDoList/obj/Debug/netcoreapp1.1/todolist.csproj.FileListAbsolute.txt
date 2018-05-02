@@ -14,3 +14,10 @@
 /Users/Guest/Desktop/ToDoListMaster/ToDoList/obj/Debug/netcoreapp1.1/todolist.AssemblyInfo.cs
 /Users/Guest/Desktop/ToDoListMaster/ToDoList/obj/Debug/netcoreapp1.1/todolist.dll
 /Users/Guest/Desktop/ToDoListMaster/ToDoList/obj/Debug/netcoreapp1.1/todolist.pdb
+/Users/austinroberts/Desktop/Repositories/ToDoListMaster/ToDoList/bin/Debug/netcoreapp1.1/ToDoList.deps.json
+/Users/austinroberts/Desktop/Repositories/ToDoListMaster/ToDoList/bin/Debug/netcoreapp1.1/ToDoList.runtimeconfig.json
+/Users/austinroberts/Desktop/Repositories/ToDoListMaster/ToDoList/bin/Debug/netcoreapp1.1/ToDoList.runtimeconfig.dev.json
+/Users/austinroberts/Desktop/Repositories/ToDoListMaster/ToDoList/obj/Debug/netcoreapp1.1/ToDoList.csproj.CoreCompileInputs.cache
+/Users/austinroberts/Desktop/Repositories/ToDoListMaster/ToDoList/obj/Debug/netcoreapp1.1/ToDoList.AssemblyInfo.cs
+/Users/austinroberts/Desktop/Repositories/ToDoListMaster/ToDoList/obj/Debug/netcoreapp1.1/ToDoList.dll
+/Users/austinroberts/Desktop/Repositories/ToDoListMaster/ToDoList/obj/Debug/netcoreapp1.1/ToDoList.pdb
